@@ -1,0 +1,19 @@
+{
+  "name": "weird-music-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "newman run postman_collection.json -e postman_environment.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}
